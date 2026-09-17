@@ -1,27 +1,27 @@
 class Catcli < Formula
   desc "CAT CLI - data tests from the command line"
   homepage "https://docs.justcat.it/"
-  version "3.0.0-dev"
+  version "3.1.0-dev"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://docs.justcat.it/releases/cat-cli-3.0.0-dev-osx-arm64.tar.gz"
-      sha256 "7a4795bade8c686c3ac17c12f8fd64c5cc9c78ab5f48f08c2bf8dd901935e45f"
+      url "https://docs.justcat.it/releases/cat-cli-3.1.0-dev-osx-arm64.tar.gz"
+      sha256 "39fd4565dc815b7fd2d39c79d1f5ac5733e3eb3cde726e5b3e0b9c3d70230f7c"
     end
     on_intel do
-      url "https://docs.justcat.it/releases/cat-cli-3.0.0-dev-osx-x64.tar.gz"
-      sha256 "84f60c7e1102f4a63a1ae8080d6cd03ff191cc363e7f33eba97828bc35bec1ae"
+      url "https://docs.justcat.it/releases/cat-cli-3.1.0-dev-osx-x64.tar.gz"
+      sha256 "1e6f70a9af099f65026baf0ed1e279dcee87f613223425dadabcd7b85215637f"
     end
   end
   on_linux do
     on_arm do
-      url "https://docs.justcat.it/releases/cat-cli-3.0.0-dev-linux-arm64.tar.gz"
-      sha256 "98875736ed8b6f41c8110b25d67d14c9cc6729cb01d3d73d0eb882736efc0200"
+      url "https://docs.justcat.it/releases/cat-cli-3.1.0-dev-linux-arm64.tar.gz"
+      sha256 "66dc3fb769eb98f8b943eba140fd334299c246b5d1ff285f9c204284e02f59b3"
     end
     on_intel do
-      url "https://docs.justcat.it/releases/cat-cli-3.0.0-dev-linux-x64.tar.gz"
-      sha256 "a56b0d9ed66218785d598ad82993efc53bd0efdebc02eae21b9efda4d0270079"
+      url "https://docs.justcat.it/releases/cat-cli-3.1.0-dev-linux-x64.tar.gz"
+      sha256 "96046c5d60a7614cf285c98b0746954386e6e43648b480fc8bba27a6aa38260c"
     end
   end
 
